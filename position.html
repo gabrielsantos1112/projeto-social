@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 150vh;
+        }
+
+        .container {
+            background-color: blueviolet;
+            padding: 40px;
+            height: 500px;
+            position: relative;
+        }
+
+        h1 {
+            position: absolute;
+            background-color: yellowgreen;
+            top: 60px;
+        }
+
+        p {
+            background-color: aqua;
+        }
+
+        .whatsappfixedbutton {
+            position: fixed;
+            right: 30px;
+            bottom: 30px;
+            border: none;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Contacts</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Título da página</h1>
+        <p>Parágrafo</p>
+        <p>Parágrafo</p>
+    </div>
+
+    <button class="whatsappfixedbutton">
+        <img src="icons8-whatsapp-64.png" alt="Ícone Whatsapp">
+    </button>
+    
+</body>
+</html>
